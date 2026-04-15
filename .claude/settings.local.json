@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ':*)",
+      "Bash(pip3 install:*)",
+      "Bash(rm -rf \"User-Equilibrium Model/__pycache__\" \"User-Equilibrium_UQ/__pycache__\")",
+      "Bash(rm -f .DS_Store)",
+      "Bash(mv \"User-Equilibrium Model\" \"user-equilibrium-model\")",
+      "Bash(mv \"User-Equilibrium_UQ\" \"user-equilibrium-uq\")",
+      "Bash(mv \"residual_demand_tunnel\" \"residual-demand-model\")"
+    ]
+  }
+}
