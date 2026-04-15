@@ -1,6 +1,6 @@
 # Assessing Transportation Impacts of Berkeley Hills Tunnel Disruption Under Earthquakes
 
-This repository contains the transportation modeling and analysis code developed for the UC ITS RIMI (Resilient and Innovative Mobility Initiative) Phase 2 project. The study presents an integrated framework that links seismic performance assessment of the BART Berkeley Hills Tunnel to transportation-system consequences during the recovery stage.
+This repository contains the transportation modeling and analysis code developed for the UC ITS RIMI (Resilient and Innovative Mobility Initiative) project. The study presents an integrated framework that links seismic performance assessment of the BART Berkeley Hills Tunnel to transportation-system consequences during the recovery stage.
 
 **Report:** Soga, K., Comfort, L., Zhao, B., Tang, Y., & Han, T. (2025). *Assessing Transportation Impacts of Berkeley Hills Tunnel Disruption Under Earthquakes* (Report No. UC ITS RIMI 2024-14). Institute of Transportation Studies, University of California, Berkeley.
 
@@ -21,7 +21,7 @@ The framework integrates three components:
 
 ### [`residual-demand-model/`](residual-demand-model/)
 
-Semi-dynamic traffic assignment simulation developed in RIMI Phase 1. It implements a quasi-equilibrium assignment with residual demand at sub-hourly time steps, using road networks from OpenStreetMap. This component evaluates cross-hills mobility impacts under various disruption and recovery scenarios, including BART tunnel closure, Caldecott Tunnel capacity reductions, and local road damage.
+Semi-dynamic traffic assignment simulation developed in the previous RIMI project; see [Soga et al., 2025](https://doi.org/10.7922/G2NZ860C)) It implements a quasi-equilibrium assignment with residual demand at sub-hourly time steps, using road networks from OpenStreetMap. This component evaluates cross-hills mobility impacts under various disruption and recovery scenarios, including BART tunnel closure, Caldecott Tunnel capacity reductions, and local road damage.
 
 ### [`user-equilibrium-model/`](user-equilibrium-model/)
 
