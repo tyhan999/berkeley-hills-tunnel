@@ -23,3 +23,4 @@ build/
 # Large data files (exceed GitHub 100MB limit)
 residual-demand-model/mtc_od_generator/indivTripData_3.csv
 residual-demand-model/mtc_od_generator/bayarea_edges.csv
+.claude/
