@@ -21,7 +21,7 @@ The framework integrates three components:
 
 ### [`residual-demand-model/`](residual-demand-model/)
 
-Semi-dynamic traffic assignment simulation developed in the previous RIMI project; see [Soga et al., 2025](https://doi.org/10.7922/G2NZ860C)) It implements a quasi-equilibrium assignment with residual demand at sub-hourly time steps, using road networks from OpenStreetMap. This component evaluates cross-hills mobility impacts under various disruption and recovery scenarios, including BART tunnel closure, Caldecott Tunnel capacity reductions, and local road damage.
+Semi-dynamic traffic assignment simulation developed in the previous RIMI project; see [Soga et al., 2025](https://doi.org/10.7922/G2NZ860C). It implements a quasi-equilibrium assignment with residual demand at sub-hourly time steps, using road networks from OpenStreetMap. This component evaluates cross-hills mobility impacts under various disruption and recovery scenarios, including BART tunnel closure, Caldecott Tunnel capacity reductions, and local road damage.
 
 ### [`user-equilibrium-model/`](user-equilibrium-model/)
 
